@@ -14,7 +14,7 @@
   "bugs": {
     "url": "https://github.com/Meteor-Community-Packages/meteor-method-hooks/issues"
   },
-  "homepage": "https://github.com/Meteor-Community-Packages/meteor-collection-hooks",
+  "homepage": "https://github.com/mikkelking/meteor-collection-hooks",
   "private": true,
   "scripts": {
     "tools:lint": "./node_modules/eslint/bin/eslint.js *.js",
