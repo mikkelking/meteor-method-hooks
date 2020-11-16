@@ -8,11 +8,9 @@ This package extends Meteor with four methods:
 * `Meteor.beforeAllMethods` 
 * `Meteor.afterAllMethods`
 
-This package differs from hitchcott:method-hooks in that:
-* You can add hooks for all methods
-* It works on both client and server
-* You can add and remove hooks at runtime. 
-* After methods can change the methods result
+This package differs from seba:method-hooks in that:
+* Hooks are called with the method name as the first argument
+* Client side hooks not used
 
 The `beforeMethod` method can be used for securing `Meteor.methods` based on the result of a definable function.
 Any `beforeMethod` that throws an error will stop the relevant method and any other hooks from executing.
