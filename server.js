@@ -16,10 +16,8 @@ function wrap(methodName) {
     }
 
     for (const beforeFn of beforeFns) {
-      debug(`Calling ${this._methodName}`)
-      const b4Args = Object.assign([], args)
-      b4Args.unshift(this._methodName)
-      if (beforeFn.apply(this, b4Args) === false) {
+      // debug(`Calling ${this._methodName}`)
+      if (beforeFn.apply(this, [this._methodName].concat(args)) === false) {
         return false
       }
     }

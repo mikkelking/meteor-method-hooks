@@ -14,5 +14,6 @@ Package.on_use(function definePackage(api) {
   api.use('meteor')
   api.use('ecmascript')
   api.mainModule('server.js', 'server')
-  api.mainModule('client.js', 'client')
+  // Don't need the client side hooks
+  // api.mainModule('client.js', 'client')
 })

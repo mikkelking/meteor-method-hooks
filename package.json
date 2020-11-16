@@ -9,10 +9,10 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Meteor-Community-Packages/meteor-method-hooks/meteor-method-hooks.git"
+    "url": "https://github.com/mikkelking/meteor-method-hooks/meteor-method-hooks.git"
   },
   "bugs": {
-    "url": "https://github.com/Meteor-Community-Packages/meteor-method-hooks/issues"
+    "url": "https://github.com/mikkelking/meteor-method-hooks/issues"
   },
   "homepage": "https://github.com/mikkelking/meteor-collection-hooks",
   "private": true,
